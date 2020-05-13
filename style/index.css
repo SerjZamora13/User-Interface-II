@@ -48,3 +48,13 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    color: midnightblue;
+    font-size: 40px;
+}
