@@ -54,7 +54,31 @@ body {
 
 h1 {
     text-align: center;
-    margin: 50px;
+    margin: 60px;
     color: midnightblue;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    justify-content: space-evenly;
+}
+
+li {
+    border: grey 1px solid;
+    border-radius: 5%;
+    padding: 20px 0;
+    width: 20%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+li:hover {
+    background-color: darkgrey;
+    font-family: cursive;
 }
