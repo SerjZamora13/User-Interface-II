@@ -83,6 +83,22 @@ li:hover {
     color: white;
 }
 
+button {
+    border: grey 1px solid;
+    padding: 20px 0;
+    width: 20%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+
 h2 {
     text-align: center;
     margin: 55px;
@@ -90,6 +106,7 @@ h2 {
     margin-top: 70px;
     font-size: 35px;
     font-family: sans-serif;
+    color: gold;
 }
 
 .about-myself {
@@ -102,3 +119,21 @@ h2 {
 .about-myself:hover {
     color: #000000;
 }
+
+div .mid-image{
+    width: 100%;
+}
+
+.project-images {
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin: 0;
+    padding: 5%;
+    background-color: #cebc58;
+    text-align: center;
+}
+
